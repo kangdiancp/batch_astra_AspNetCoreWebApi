@@ -1,0 +1,12 @@
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.deps.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.AssemblyReference.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfoInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfo.cs
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CoreCompileInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\refint\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\ref\Northwind.Contracts.dll

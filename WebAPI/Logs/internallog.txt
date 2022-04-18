@@ -1,0 +1,342 @@
+2022-04-18 12:08:32.0647 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-04-18 12:08:32.5418 Debug Found assembly location directory: 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2022-04-18 12:08:32.5418 Debug Auto loading based on NLog-Assembly found location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:08:32.5418 Debug Search for auto loading files in location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:08:32.5582 Debug Start auto loading, location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:08:32.5673 Info Auto loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-04-18 12:08:32.5673 Info Loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-04-18 12:08:32.9542 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-18 12:08:32.9552 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-04-18 12:08:32.9552 Info Auto loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-18 12:08:32.9552 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-04-18 12:08:32.9552 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-04-18 12:08:32.9552 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2022-04-18 12:08:32.9552 Debug Auto loading done
+2022-04-18 12:08:32.9552 Info Message Template Auto Format enabled
+2022-04-18 12:08:33.0510 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.0510 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:08:33.0790 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-04-18 12:08:33.0876 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-04-18 12:08:33.0876 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.0876 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.1029 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1372 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:08:33.1661 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:08:33.1661 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:08:33.1661 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.1661 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.1730 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1730 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2022-04-18 12:08:33.1730 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1730 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:08:33.1952 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-04-18 12:08:33.1952 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:08:33.1952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1952 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:08:33.1952 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:08:33.1952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1952 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:08:33.1952 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-04-18 12:08:33.1952 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-04-18 12:08:33.1952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1952 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.1952 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.1952 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:08:33.1952 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:08:33.1952 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:08:33.2277 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.2277 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.2277 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.2277 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:08:33.2277 Info Adding target FileTarget(Name=logfile)
+2022-04-18 12:08:33.2392 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-04-18 12:08:33.2392 Trace ParseRulesElement
+2022-04-18 12:08:33.2877 Debug Watching path 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi' filter 'nlog.config' for changes.
+2022-04-18 12:08:33.2877 Debug --- NLog configuration dump ---
+2022-04-18 12:08:33.2877 Debug Targets:
+2022-04-18 12:08:33.2877 Debug File Target[logfile]
+2022-04-18 12:08:33.2877 Debug Rules:
+2022-04-18 12:08:33.2979 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2022-04-18 12:08:33.2979 Debug --- End of NLog configuration dump ---
+2022-04-18 12:08:33.3220 Trace FindReachableObject<System.Object>:
+2022-04-18 12:08:33.3220 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2022-04-18 12:08:33.3220 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-04-18 12:08:33.3306 Trace  Scanning FileTarget 'File Target[logfile]'
+2022-04-18 12:08:33.3306 Trace   Scanning Property FileName ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2022-04-18 12:08:33.3306 Trace   Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:08:33.3306 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.3306 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:08:33.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.3306 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-04-18 12:08:33.3306 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:08:33.3306 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.3306 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:08:33.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.3306 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:08:33.3450 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:08:33.3450 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:08:33.3450 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.3450 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.3450 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.3450 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:08:33.3450 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-04-18 12:08:33.3612 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-04-18 12:08:33.3612 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-04-18 12:08:33.3612 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi/nlog.config
+2022-04-18 12:08:33.3612 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-04-18 12:08:33.3989 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-04-18 12:08:33.3989 Trace Initializing Layout Renderer: ${message}
+2022-04-18 12:08:33.3989 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:08:33.3989 Trace Initializing Layout Renderer: ${level}
+2022-04-18 12:08:33.3989 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2022-04-18 12:08:33.4085 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.4085 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:08:33.4085 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.4085 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.4085 Trace Initializing Layout Renderer: ${uppercase}
+2022-04-18 12:08:33.4085 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:08:33.4085 Trace Initializing Layout Renderer: ${longdate}
+2022-04-18 12:08:33.4085 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:08:33.4085 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.4085 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:08:33.4085 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.4085 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:08:33.4085 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.4085 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:08:33.4085 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:08:33.4085 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:08:33.4085 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.4085 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:08:33.4256 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.4256 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:08:33.4256 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:08:33.4256 Trace Initializing Layout Renderer: ${shortdate}
+2022-04-18 12:08:33.4256 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:08:33.4256 Trace Initializing 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:08:33.4256 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:08:33.4256 Trace Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:08:33.4256 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:08:33.4256 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.4256 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:08:33.4256 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:08:33.4256 Trace Initializing File Target[logfile]
+2022-04-18 12:08:33.4256 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-04-18 12:08:33.4256 Trace Scanning FileTarget 'File Target[logfile]'
+2022-04-18 12:08:33.4256 Trace  Scanning Property FileName ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2022-04-18 12:08:33.4390 Trace  Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:08:33.4390 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-04-18 12:08:33.4390 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:08:33.4390 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-04-18 12:08:33.4390 Trace File Target[logfile] has 2 layouts
+2022-04-18 12:08:33.4390 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2022-04-18 12:11:03.5903 Info AppDomain Shutting down. Logger closing...
+2022-04-18 12:11:03.5903 Debug Stopping file watching for path 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi' filter 'nlog.config'
+2022-04-18 12:11:03.5973 Trace Flushing all 1 targets...
+2022-04-18 12:11:03.5973 Trace ForEachItemInParallel() 1 items
+2022-04-18 12:11:03.5973 Trace FileTarget(Name=logfile): FlushAsync
+2022-04-18 12:11:03.5973 Trace Continuation invoked: 
+2022-04-18 12:11:03.5973 Trace Parallel task completed. 0 items remaining
+2022-04-18 12:11:03.6135 Debug Flush completed
+2022-04-18 12:11:03.6135 Trace FileTarget(Name=logfile): FlushAsync Done
+2022-04-18 12:11:03.6135 Debug Closing logging configuration...
+2022-04-18 12:11:03.6135 Trace Closing File Target[logfile]
+2022-04-18 12:11:03.6135 Debug Closing target 'File Target[logfile]'.
+2022-04-18 12:11:03.6276 Debug Closed target 'File Target[logfile]'.
+2022-04-18 12:11:03.6276 Trace Closing 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${shortdate}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:11:03.6276 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${longdate}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${uppercase}
+2022-04-18 12:11:03.6276 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${level}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:11:03.6276 Trace Closing Layout Renderer: ${message}
+2022-04-18 12:11:03.6276 Debug Finished closing logging configuration.
+2022-04-18 12:11:03.6276 Info Logger has been shut down.
+2022-04-18 12:23:17.0711 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-04-18 12:23:17.1125 Debug Found assembly location directory: 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2022-04-18 12:23:17.1125 Debug Auto loading based on NLog-Assembly found location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:23:17.1125 Debug Search for auto loading files in location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:23:17.1125 Debug Start auto loading, location: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0
+2022-04-18 12:23:17.1125 Info Auto loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-04-18 12:23:17.1125 Info Loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-04-18 12:23:17.1303 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-18 12:23:17.1303 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-04-18 12:23:17.1303 Info Auto loading assembly file: C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-18 12:23:17.1303 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-04-18 12:23:17.1303 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-04-18 12:23:17.1303 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2022-04-18 12:23:17.1303 Debug Auto loading done
+2022-04-18 12:23:17.1303 Info Message Template Auto Format enabled
+2022-04-18 12:23:17.1737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.1737 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:23:17.1737 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-04-18 12:23:17.1737 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-04-18 12:23:17.1737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.1737 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.1897 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.1897 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:23:17.1897 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:23:17.1897 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:23:17.1897 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.1897 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.1897 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.1897 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2022-04-18 12:23:17.1897 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.1897 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:23:17.1897 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-04-18 12:23:17.1897 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:23:17.1897 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2047 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:23:17.2047 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:23:17.2047 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2047 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:23:17.2047 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-04-18 12:23:17.2047 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-04-18 12:23:17.2047 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2047 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.2047 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2047 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:23:17.2047 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:23:17.2047 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:23:17.2047 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2047 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.2047 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2047 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:23:17.2047 Info Adding target FileTarget(Name=logfile)
+2022-04-18 12:23:17.2047 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-04-18 12:23:17.2047 Trace ParseRulesElement
+2022-04-18 12:23:17.2356 Debug Watching path 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi' filter 'nlog.config' for changes.
+2022-04-18 12:23:17.2356 Debug --- NLog configuration dump ---
+2022-04-18 12:23:17.2356 Debug Targets:
+2022-04-18 12:23:17.2356 Debug File Target[logfile]
+2022-04-18 12:23:17.2356 Debug Rules:
+2022-04-18 12:23:17.2356 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2022-04-18 12:23:17.2356 Debug --- End of NLog configuration dump ---
+2022-04-18 12:23:17.2356 Trace FindReachableObject<System.Object>:
+2022-04-18 12:23:17.2356 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2022-04-18 12:23:17.2356 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-04-18 12:23:17.2356 Trace  Scanning FileTarget 'File Target[logfile]'
+2022-04-18 12:23:17.2356 Trace   Scanning Property FileName ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2022-04-18 12:23:17.2356 Trace   Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:23:17.2518 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2518 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2518 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:23:17.2518 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2518 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-04-18 12:23:17.2518 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:23:17.2518 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2518 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:23:17.2518 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2518 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:23:17.2518 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:23:17.2518 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:23:17.2675 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2675 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.2675 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2675 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:23:17.2675 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-04-18 12:23:17.2675 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-04-18 12:23:17.2675 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-04-18 12:23:17.2675 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi/nlog.config
+2022-04-18 12:23:17.2675 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-04-18 12:23:17.2675 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-04-18 12:23:17.2675 Trace Initializing Layout Renderer: ${message}
+2022-04-18 12:23:17.2675 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:23:17.2826 Trace Initializing Layout Renderer: ${level}
+2022-04-18 12:23:17.2826 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2022-04-18 12:23:17.2826 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2826 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:23:17.2826 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2826 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.2826 Trace Initializing Layout Renderer: ${uppercase}
+2022-04-18 12:23:17.2826 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:23:17.2826 Trace Initializing Layout Renderer: ${longdate}
+2022-04-18 12:23:17.2826 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:23:17.2826 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2826 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:23:17.2826 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2826 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-04-18 12:23:17.2826 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2826 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-04-18 12:23:17.2826 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-04-18 12:23:17.2826 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-04-18 12:23:17.2990 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2990 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-04-18 12:23:17.2990 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2990 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-04-18 12:23:17.2990 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:23:17.2990 Trace Initializing Layout Renderer: ${shortdate}
+2022-04-18 12:23:17.2990 Trace Initializing Layout Renderer: ${literal}
+2022-04-18 12:23:17.2990 Trace Initializing 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:23:17.2990 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-04-18 12:23:17.2990 Trace Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:23:17.2990 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-04-18 12:23:17.2990 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2990 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-04-18 12:23:17.2990 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-04-18 12:23:17.2990 Trace Initializing File Target[logfile]
+2022-04-18 12:23:17.2990 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-04-18 12:23:17.2990 Trace Scanning FileTarget 'File Target[logfile]'
+2022-04-18 12:23:17.2990 Trace  Scanning Property FileName ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2022-04-18 12:23:17.2990 Trace  Scanning SimpleLayout ''c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt''
+2022-04-18 12:23:17.2990 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-04-18 12:23:17.2990 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-04-18 12:23:17.2990 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-04-18 12:23:17.2990 Trace File Target[logfile] has 2 layouts
+2022-04-18 12:23:17.2990 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2022-04-18 12:23:32.6709 Debug Targets for Northwind.LoggerService.LoggerManager by level:
+2022-04-18 12:23:32.6709 Debug Trace =>
+2022-04-18 12:23:32.6709 Debug Debug => logfile
+2022-04-18 12:23:32.6709 Debug Info => logfile
+2022-04-18 12:23:32.6736 Debug Warn => logfile
+2022-04-18 12:23:32.6736 Debug Error => logfile
+2022-04-18 12:23:32.6736 Debug Fatal => logfile
+2022-04-18 12:23:32.7254 Debug FileTarget(Name=logfile): Preparing for new file 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt'
+2022-04-18 12:23:32.7502 Debug Creating file appender: c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt
+2022-04-18 12:23:32.7562 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:23:32.7786 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:23:32.7838 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:23:32.8022 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:24:16.0695 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:24:16.0810 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:24:16.1377 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:24:16.1377 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:34:04.7511 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:34:04.7536 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:34:04.7536 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:34:04.7536 Trace Opening c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt with allowFileSharedWriting=False
+2022-04-18 12:37:51.8834 Info AppDomain Shutting down. Logger closing...
+2022-04-18 12:37:51.8834 Debug Stopping file watching for path 'C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi' filter 'nlog.config'
+2022-04-18 12:37:51.8834 Trace Flushing all 1 targets...
+2022-04-18 12:37:51.8834 Trace ForEachItemInParallel() 1 items
+2022-04-18 12:37:51.8922 Trace FileTarget(Name=logfile): FlushAsync
+2022-04-18 12:37:51.8922 Trace Continuation invoked: 
+2022-04-18 12:37:51.8922 Trace Parallel task completed. 0 items remaining
+2022-04-18 12:37:51.8922 Debug Flush completed
+2022-04-18 12:37:51.8922 Trace FileTarget(Name=logfile): FlushAsync Done
+2022-04-18 12:37:51.8922 Debug Targets not configured for logger: Northwind.LoggerService.LoggerManager
+2022-04-18 12:37:51.8922 Debug Closing logging configuration...
+2022-04-18 12:37:51.8922 Trace Closing File Target[logfile]
+2022-04-18 12:37:51.8922 Debug Closing target 'File Target[logfile]'.
+2022-04-18 12:37:51.8922 Trace FileTarget(Name=logfile): FinalizeFile 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt, isArchiving: False'
+2022-04-18 12:37:51.8922 Debug FileAppender Closing Invalidate - c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\2022-04-18_logfile.txt
+2022-04-18 12:37:51.8922 Debug Closed target 'File Target[logfile]'.
+2022-04-18 12:37:51.8922 Trace Closing 'c:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebApi\Logs\${shortdate}_logfile.txt'
+2022-04-18 12:37:51.8922 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${shortdate}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:37:51.9082 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${longdate}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${uppercase}
+2022-04-18 12:37:51.9082 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${level}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${literal}
+2022-04-18 12:37:51.9082 Trace Closing Layout Renderer: ${message}
+2022-04-18 12:37:51.9082 Debug Finished closing logging configuration.
+2022-04-18 12:37:51.9082 Info Logger has been shut down.
