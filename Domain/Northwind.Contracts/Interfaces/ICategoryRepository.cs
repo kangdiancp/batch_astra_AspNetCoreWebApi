@@ -16,5 +16,7 @@ namespace Northwind.Contracts.Interfaces
         void CreateCategory(Category category);
 
         void DeleteCategory(Category category);
+
+        void UpdateCategory(Category category);
     }
 }

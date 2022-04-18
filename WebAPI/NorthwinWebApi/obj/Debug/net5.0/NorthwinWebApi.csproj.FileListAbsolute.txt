@@ -70,3 +70,9 @@ C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\H
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Northwind.Repository.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Northwind.Repository.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\WebAPI\NorthwinWebApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

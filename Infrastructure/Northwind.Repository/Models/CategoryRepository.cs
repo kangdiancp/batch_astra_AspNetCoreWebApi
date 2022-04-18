@@ -33,5 +33,11 @@ namespace Northwind.Repository.Models
 
         public Category GetCategory(int id, bool trackChanges) =>
             FindByCondition(c => c.CategoryId.Equals(id), trackChanges).SingleOrDefault();
+
+        public void UpdateCategory(Category category)
+        {
+           Update(category);
+        }
     }
 }
+;
