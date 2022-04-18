@@ -1,0 +1,15 @@
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\bin\Debug\net5.0\Northwind.Entities.deps.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\bin\Debug\net5.0\Northwind.Entities.runtimeconfig.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\bin\Debug\net5.0\Northwind.Entities.runtimeconfig.dev.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\bin\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.csproj.AssemblyReference.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.AssemblyInfoInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.AssemblyInfo.cs
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\refint\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\Northwind.Entities.genruntimeconfig.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Entities\obj\Debug\net5.0\ref\Northwind.Entities.dll

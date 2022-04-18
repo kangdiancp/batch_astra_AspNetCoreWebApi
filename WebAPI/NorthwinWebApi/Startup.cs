@@ -36,7 +36,12 @@ namespace NorthwinWebApi
             services.ConfigureCors();
             services.ConfigureIISIntegration();
 
+            //layer domain/core
             services.ConfigureLoggerService();
+            services.ConfigureDbContext(Configuration);
+
+            //layer infrastructure
+            services.ConfigureRepositoryManager();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -10,3 +10,6 @@ C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\refint\Northwind.Contracts.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.pdb
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\ref\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CopyComplete

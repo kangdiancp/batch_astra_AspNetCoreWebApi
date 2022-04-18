@@ -1,0 +1,17 @@
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Repository.deps.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Repository.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Repository.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.csproj.AssemblyReference.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.AssemblyInfoInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.AssemblyInfo.cs
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.csproj.CoreCompileInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.csproj.CopyComplete
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\refint\Northwind.Repository.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\Northwind.Repository.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Infrastructure\Northwind.Repository\obj\Debug\net5.0\ref\Northwind.Repository.dll
