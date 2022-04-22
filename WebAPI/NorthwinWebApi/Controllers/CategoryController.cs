@@ -121,7 +121,7 @@ namespace NorthwinWebApi.Controllers
             }
 
             _mapper.Map(categoryDto, categoryEntity);
-            _repository.Category.UpdateCategory(categoryEntity);
+           // _repository.Category.UpdateCategory(categoryEntity);
 
             _repository.Save();
             return NoContent();

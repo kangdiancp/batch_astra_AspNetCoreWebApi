@@ -13,6 +13,9 @@ namespace NorthwinWebApi.Mapping
             
             //post categery
             CreateMap<CategoryDto, Category>();
+
+            CreateMap<CustomerDto, Customer>().ReverseMap();
+            CreateMap<CustomerUpdateDto, Customer>().ReverseMap();
         }
     }
 }

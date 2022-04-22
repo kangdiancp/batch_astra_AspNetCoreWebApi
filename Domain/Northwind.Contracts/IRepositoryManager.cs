@@ -13,5 +13,7 @@ namespace Northwind.Contracts
         ICustomersRepository Customers { get; }
 
         void Save();
+
+        Task SaveAsync();
     }
 }

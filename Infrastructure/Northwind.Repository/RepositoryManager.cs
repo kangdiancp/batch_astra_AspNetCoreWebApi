@@ -23,20 +23,37 @@ namespace Northwind.Repository
 
         public ICategoryRepository Category
         {
-            get { 
-                if(_categoryRepository == null)
+            get
+            {
+                if (_categoryRepository == null)
                 {
                     _categoryRepository = new CategoryRepository(_repositoryContext);
                 }
-                return _categoryRepository; 
+                return _categoryRepository;
             }
         }
 
-        public ICustomersRepository Customers => throw new NotImplementedException();
+        public ICustomersRepository Customers
+        {
+            get
+            {
+                if (_customersRepository == null)
+                {
+                    _customersRepository = new CustomersRepository(_repositoryContext);
+                }
+                return _customersRepository;
+            }
+        }
+
+        //public ICustomersRepository Customers => throw new NotImplementedException();
 
         public void Save()
         {
             _repositoryContext.SaveChanges();
         }
+
+        public async Task SaveAsync() =>
+            await _repositoryContext.SaveChangesAsync();
+
     }
 }
