@@ -2,7 +2,9 @@ C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.pdb
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.pdb
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.AssemblyReference.cache
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\refint\Northwind.LoggerService.dll
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.pdb
 C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\ref\Northwind.LoggerService.dll
-C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.dll
-C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.pdb
