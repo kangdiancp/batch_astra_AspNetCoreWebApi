@@ -28,17 +28,29 @@ namespace NorthwinWebApi.Controllers
         [HttpGet]
         public IActionResult GetCategories()
         {
-            try
+
+            var categories = _repository.Category.GetAllCategory(trackChanges: false);
+            var categoryDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
+
+            //only test for simulate error, when succeed, please remove
+            //throw new Exception("Exception");
+
+            return Ok(categoryDto);
+
+     
+ 
+
+            /* try
             {
                 var categories = _repository.Category.GetAllCategory(trackChanges: false);
 
                 // replace by categoryDto
-                /*var categoryDto = categories.Select(c => new CategoryDto
+                *//*var categoryDto = categories.Select(c => new CategoryDto
                 {
                     Id = c.CategoryId,
                     categoryName = c.CategoryName,
                     description = c.Description
-                }).ToList();*/
+                }).ToList();*//*
 
                 var categoryDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
 
@@ -48,7 +60,7 @@ namespace NorthwinWebApi.Controllers
             {
                 _logger.LogError($"{nameof(GetCategories)} message : {ex}");
                 return StatusCode(500, "Internal Server Error");
-            }
+            }*/
         }
 
         [HttpGet("{id}",Name = "CategoryById")]
