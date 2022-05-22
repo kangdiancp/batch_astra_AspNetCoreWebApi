@@ -11,5 +11,7 @@ namespace Northwind.Entities.DataTransferObject
         public int categoryId { get; set; }
         public string categoryName { get; set; }
         public string description { get; set; }
+
+        public byte[] Picture { get; set; }
     }
 }

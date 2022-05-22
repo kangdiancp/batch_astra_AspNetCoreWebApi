@@ -7,6 +7,8 @@ using Northwind.Entities.DataTransferObject;
 using AutoMapper;
 using System.Collections.Generic;
 using Northwind.Entities.Models;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace NorthwinWebApi.Controllers
 {
@@ -79,7 +81,7 @@ namespace NorthwinWebApi.Controllers
             }
         }
 
-        [HttpPost] 
+        [HttpPost]
         public IActionResult CreateCategory([FromBody] CategoryDto categoryDto)
         {
             if (categoryDto == null)
@@ -137,6 +139,70 @@ namespace NorthwinWebApi.Controllers
 
             _repository.Save();
             return NoContent();
+        }
+
+
+        [HttpPost("form"), DisableRequestSizeLimit]
+        public async Task<IActionResult> PostCategory()
+        {
+            //use try-catch to prevent error when read Request.ReadFormAsync()
+            
+            try
+            {
+                // hold data multipart from client-side
+                var formCollection = await Request.ReadFormAsync();
+                // hold data File
+                var file = formCollection.Files.First();
+
+                // hold data attribute
+                formCollection.TryGetValue("Description", out var description).ToString();
+                formCollection.TryGetValue("CategoryName", out var categoryName).ToString();
+
+                // use object MemoryStream to hold stream binary
+                using (var memoryStream = new MemoryStream())
+                {
+                    //convert file stream to object MemoryStream
+                    await file.CopyToAsync(memoryStream);
+
+                    // hold file stream & attribute in CategoryDto
+                    var categoryDto = new CategoryDto()
+                    {
+                        categoryName = categoryName,
+                        description = description,
+                        Picture = memoryStream.ToArray()
+                    };
+
+                    //map categoryDto and CategoryModel
+                    var categoryEntity = _mapper.Map<Category>(categoryDto);
+                    _repository.Category.CreateCategory(categoryEntity);
+                    _repository.Save();
+
+                    // we want result category post then send to client side
+                    var categoryToReturn = _mapper.Map<CategoryDto>(categoryEntity);
+                    return CreatedAtRoute("CategoryById", new { id = categoryToReturn.categoryId }, categoryToReturn);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Content-Type is null {ex}");
+            }
+
+        }
+
+        [HttpGet("getPhoto/{id}"), DisableRequestSizeLimit]
+        public async Task<IActionResult> GetPhoto(int id)
+        {
+            var categoryEntity = await _repository.Category.GetCategoryAsycn(id, trackChanges: false);
+            if (categoryEntity == null)
+            {
+                _logger.LogInfo($"Category with id :{id} doesn't exist in the database");
+                return NotFound();
+            }
+
+            byte[] picture = categoryEntity.Picture;
+            return base.File(picture, "image/jpeg");
         }
     }
 }

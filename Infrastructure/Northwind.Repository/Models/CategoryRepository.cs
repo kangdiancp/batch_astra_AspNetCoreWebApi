@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Northwind.Entities.Models;
 using Northwind.Contracts.Interfaces;
 using Northwind.Entities.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace Northwind.Repository.Models
 {
@@ -25,7 +26,7 @@ namespace Northwind.Repository.Models
             Delete(category);
         }
 
-        public IEnumerable<Category> GetAllCategory(bool trackChanges)=>        
+        public IEnumerable<Category> GetAllCategory(bool trackChanges) =>
             FindAll(trackChanges)
                 .OrderBy(c => c.CategoryName)
                 .ToList();
@@ -36,8 +37,11 @@ namespace Northwind.Repository.Models
 
         public void UpdateCategory(Category category)
         {
-           Update(category);
+            Update(category);
         }
+
+        public async Task<Category> GetCategoryAsycn(int categoryId, bool trackChanges) =>
+            await FindByCondition(c => c.CategoryId.Equals(categoryId), trackChanges).SingleOrDefaultAsync();
     }
 }
 ;

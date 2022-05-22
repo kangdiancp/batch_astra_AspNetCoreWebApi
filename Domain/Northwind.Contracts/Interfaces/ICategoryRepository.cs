@@ -13,6 +13,8 @@ namespace Northwind.Contracts.Interfaces
 
         Category GetCategory(int id, bool trackChanges);
 
+        Task<Category> GetCategoryAsycn(int categoryId, bool trackChanges);
+
         void CreateCategory(Category category);
 
         void DeleteCategory(Category category);
